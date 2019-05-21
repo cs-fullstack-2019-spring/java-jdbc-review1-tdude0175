@@ -44,3 +44,15 @@ CREATE TABLE goal (
 
 INSERT INTO goal VALUES (1001,'POL','Robert Lewandowski',17),(1001,'GRE','Dimitris Salpingidis',51),(1002,'RUS','Alan Dzagoev',15),(1002,'RUS','Alan Dzagoev',79),(1002,'RUS','Roman Shirokov',24),(1002,'RUS','Roman Pavlyuchenko',82),(1002,'CZE','Václav Pilar',52),(1003,'GRE','Theofanis Gekas',53),(1003,'CZE','Petr Jirácek',3),(1003,'CZE','Václav Pilar',6),(1004,'POL','Jakub Blaszczykowski',57),(1004,'RUS','Alan Dzagoev',37),(1005,'CZE','Petr Jirácek',72),(1006,'GRE','Giorgos Karagounis',45),(1007,'DEN','Michael Krohn-Dehli',24),(1008,'GER','Mario Gómez',72),(1009,'DEN','Nicklas Bendtner',41),(1009,'DEN','Nicklas Bendtner',80),(1009,'POR','Pepe (footballer born 1983)',24),(1009,'POR','Hélder Postiga',36),(1009,'POR','Silvestre Varela',87),(1010,'NED','Robin van Persie',73),(1010,'GER','Mario Gómez',24),(1010,'GER','Mario Gómez',38),(1011,'POR','Cristiano Ronaldo',28),(1011,'POR','Cristiano Ronaldo',74),(1011,'NED','Rafael van der Vaart',11),(1012,'DEN','Michael Krohn-Dehli',24),(1012,'GER','Lukas Podolski',19),(1012,'GER','Lars Bender',80),(1013,'ESP','Cesc Fàbregas',64),(1013,'ITA','Antonio Di Natale',61),(1014,'IRL','Sean St Ledger',19),(1014,'CRO','Mario Mandžukic',3),(1014,'CRO','Mario Mandžukic',49),(1014,'CRO','Nikica Jelavic',43),(1015,'ITA','Andrea Pirlo',39),(1015,'CRO','Mario Mandžukic',72),(1016,'ESP','Fernando Torres',4),(1016,'ESP','Fernando Torres',70),(1016,'ESP','David Silva',49),(1016,'ESP','Cesc Fàbregas',83),(1017,'ESP','Jesús Navas',88),(1018,'ITA','Antonio Cassano',35),(1018,'ITA','Mario Balotelli',90),(1019,'FRA','Samir Nasri',39),(1019,'ENG','Joleon Lescott',30),(1020,'UKR','Andriy Shevchenko',55),(1020,'UKR','Andriy Shevchenko',62),(1020,'SWE','Zlatan Ibrahimovic',52),(1021,'FRA','Jérémy Ménez',53),(1021,'FRA','Yohan Cabaye',56),(1022,'SWE','Glen Johnson (English footballer)',49),(1022,'SWE','Olof Mellberg',59),(1022,'ENG','Andy Carroll',23),(1022,'ENG','Theo Walcott',64),(1022,'ENG','Danny Welbeck',78),(1023,'ENG','Wayne Rooney',48),(1024,'SWE','Zlatan Ibrahimovic',54),(1024,'SWE','Sebastian Larsson',90),(1025,'POR','Cristiano Ronaldo',79),(1026,'GER','Philipp Lahm',39),(1026,'GER','Sami Khedira',61),(1026,'GER','Miroslav Klose',68),(1026,'GER','Marco Reus',74),(1026,'GRE','Georgios Samaras',55),(1026,'GRE','Dimitris Salpingidis',89),(1027,'ESP','Xabi Alonso',19),(1027,'ESP','Xabi Alonso',90),(1030,'GER','Mesut Özil',90),(1030,'ITA','Mario Balotelli',20),(1030,'ITA','Mario Balotelli',36),(1031,'ESP','David Silva',14),(1031,'ESP','Jordi Alba',41),(1031,'ESP','Fernando Torres',84),(1031,'ESP','Juan Mata',88);
 ```
+
+## Half Day Exercise 
+Create a interface for the data above to be repeatable and persistant.
+
+Make the following options avaiable when the program starts up:
+```
+1. List match results
+2. Add a goal to the database
+```
+
+### Challenge:
+Let the user add as many goals as they want to the results, but make it only one update statement.
