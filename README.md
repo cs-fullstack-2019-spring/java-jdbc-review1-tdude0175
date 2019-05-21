@@ -50,9 +50,11 @@ Create a interface for the data above to be repeatable and persistant.
 
 Make the following options avaiable when the program starts up:
 ```
+Welcome to CodeCrew Sports Network. Pick an option below:
 1. List match results
 2. Add a goal to the database
 ```
 
 ### Challenge:
-Let the user add as many goals as they want to the results, but make it only one update statement.
+1) Get all the stats for a match with goals being added dynamically.
+2) Add the match to the database as well.
